@@ -1,6 +1,4 @@
-
 // This is the standard hello world program.
-
 
 // Package main is special. It defines a standalone program.
 package main

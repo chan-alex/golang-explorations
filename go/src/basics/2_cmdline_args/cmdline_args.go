@@ -1,11 +1,9 @@
-
 package main
 
 import (
 	"fmt"
 	"os"
 )
-
 
 func main() {
 
@@ -15,7 +13,7 @@ func main() {
 	fmt.Println("Name of program: " + os.Args[0])
 
 	fmt.Println("The arguments:")
-	for i:=1; i < len(os.Args); i++ {
+	for i := 1; i < len(os.Args); i++ {
 		fmt.Println(os.Args[i])
 	}
 }
